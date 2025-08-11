@@ -28,3 +28,31 @@ The app provides:
 ---
 
 ## 📂 Project Structure
+├── Models/
+│ ├── lion_model.h5 # Trained ML model (Pickle)
+│ ├── lion_v.h5 # Vectorizer (Pickle)
+│ ├── lion_le.h5 # Label Encoder (Pickle)
+│ └── stopwords.txt # Custom stopwords
+├── app.py # Streamlit app code
+└── README.md # Project description
+
+---
+
+## ⚙ Installation & Run
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/your-username/news-category-prediction.git
+cd news-category-prediction
+pip install -r requirements.txt
+streamlit run app.py
+
+---
+
+## 🛠 Requirements
+1. Python 3.8+
+2. Streamlit
+3. NLTK
+4. Scikit-learn
+5. Pickle
+
