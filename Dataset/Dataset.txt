@@ -1,0 +1,7 @@
+Kaggle BBC news data set
+
+using in a notebook:
+
+import kagglehub
+
+kagglehub.dataset_download("yufengdev/bbc-fulltext-and-category")
